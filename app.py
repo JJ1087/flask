@@ -4,7 +4,14 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Jeziel Gonzalez Antonio 9no A"
+    return'''
+        <html>
+            <body>
+                <h1>Jeziel Gonzalez Antonio 9no A</h1>
+                <img src="saludo.webp" alt="Saludos">
+            </body>
+        </html>"
+    '''
 
 if __name__ == '__main__':
     app.run(debug=True)
