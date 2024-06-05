@@ -8,7 +8,7 @@ def home():
         <html>
             <body>
                 <h1>Jeziel Gonzalez Antonio 9no A</h1>
-                <img src="saludo.webp" alt="Saludos">
+                <img src="/static/saludo.webp" alt="Saludos">
             </body>
         </html>"
     '''
