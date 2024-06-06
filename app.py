@@ -8,7 +8,9 @@ def home():
         <html>
             <body>
                 <h1>Jeziel Gonzalez Antonio 9no A</h1>
+                <h2>Imagen: Saludo </h2>
                 <img src="/static/saludo.webp" alt="Saludos">
+                <h2>Formulario: Saludo</h2>
                 <form id="greetForm" method="post">
                     <label for="first_name">¿Cual es tu nombre?</label>
                     <input type="text" id="first_name" name="first_name"><br>
@@ -25,7 +27,7 @@ def home():
                     document.getElementById('greetingLabel').innerText = `Hola ${firstName} ${lastName}!`;
                 }
             </script>
-        </html>"
+        </html>
     '''
 
 
